@@ -1,0 +1,42 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Exo:800|Expletus+Sans:700|Poppins:500|Titillium+Web');
+
+body {
+  padding-top: 54px;
+}
+
+.cart {
+    background-color: #ddE2A7;
+    border: 0.125em solid #ddE2A7;
+    border-radius: 0.25em;
+    padding: 0.0125em 2em;
+}
+
+.nav_btn {
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border-radius: 0.5em;
+    background-color: #B5E0A3;
+    border: 0.125em solid #B5E0A3;
+    color: black;
+    padding: 0.0125em;
+    font-family: 'Exo', sans-serif;
+    margin: 0.25em 0.125em;
+}
+
+    .nav_btn:hover {
+        border-color: green;
+        background-color: green;
+        color: white;
+    }
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
